@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: ec2-user
+  gather_facts: false
+  tasks:
+    - name: copy_task
+      copy:
+        src:  /home/ec2-user/tango/tango-test
+        dest: /home/ec2-user
