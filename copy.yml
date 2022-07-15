@@ -5,5 +5,5 @@
   tasks:
     - name: copy_task
       copy:
-        src:  /home/ec2-user/tango/test
+        src:  requirements.txt
         dest: /home/ec2-user
