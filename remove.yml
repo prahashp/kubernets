@@ -1,0 +1,9 @@
+---
+- hosts: all
+  user: ec2-user
+  gather_facts: false
+  tasks:
+    - name: Remove file
+      file:
+        path: /home/ec2-user
+        state: absent
