@@ -5,5 +5,5 @@
   tasks:
     - name: Remove file
       file:
-        path: /home/ec2-user
+        path: /home/ec2-user/requirements.txt
         state: absent
