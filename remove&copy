@@ -7,7 +7,7 @@
       file:
         path: requirements.txt
         state: absent
-     - name: copy_task
+    - name: copy_task
       copy:
         src:  main.py
-        dest: /home/ec2-user      
+        dest: /home/ec2-user
