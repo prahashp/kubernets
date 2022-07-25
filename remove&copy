@@ -1,0 +1,13 @@
+---
+- hosts: all
+  user: ec2-user
+  gather_facts: false
+  tasks:
+    - name: Remove file
+      file:
+        path: requirements.txt
+        state: absent
+     - name: copy_task
+      copy:
+        src:  main.py
+        dest: /home/ec2-user      
