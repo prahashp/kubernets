@@ -1,2 +1,2 @@
 [tango-test]
-54.147.186.32 ansible_user=ec2-user
+34.204.2.84 ansible_user=ec2-user
